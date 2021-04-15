@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+.App {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+img {
+  width: 50%;
+}
+
+.list-category {
+  padding: 1rem 2rem;
+  background-color: grey;
+  color: white;
+  border: 1px black solid;
+  margin: 1rem 0.3rem;
+  cursor: pointer;
+}
+
+.list-item {
+  margin: 1rem 1rem;
+  width: 400px;
+  text-align: left;
+  list-style: none;
+  border: 1px grey solid;
+  border-radius: 0.2rem;
+}
+
+.list-sub-item {
+  list-style: none;
+  padding: 0.3rem;
+}
+
+.list-book-name {
+  font-size: 1.5rem;
+}
+
+hr {
+  width: 80%;
+}
